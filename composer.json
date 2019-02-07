@@ -1,0 +1,17 @@
+{
+  "name": "xystussis/frame",
+  "description": "framework",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pierre van Horick",
+      "email": "thexystussis@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Frame\\": "src"
+    }
+  }
+}
