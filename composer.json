@@ -13,5 +13,8 @@
     "psr-4": {
       "Frame\\": "src"
     }
+  },
+  "require": {
+    "twig/twig": "^2.0"
   }
 }
