@@ -12,6 +12,6 @@ class ViewLoader implements Loader
         //Load our View according to our mapped route
         //Temporary Example.
         $view = new View();
-        print $view->loadFile('index.html' , ['name' =>'User'])->render();
+        print $view->loadFile('index.html', ['name' => 'User'])->render();
     }
 }

@@ -20,7 +20,7 @@ class Application
 
     }
 
-    private function load(Loader $loader)
+    private function load(Loader $loader): void
     {
         $loader->load();
     }
