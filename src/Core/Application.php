@@ -25,7 +25,7 @@ class Application
         foreach ($loaders as $loader) {
             $this->load(new $loader());
         }
-        var_dump(application()->getConfig()->get('database.drivers.mysql.username', 'username'));
+//        var_dump(application()->getConfig()->get('database.drivers.mysql.username', 'username'));
     }
 
     private function load(Loader $loader): void

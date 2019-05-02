@@ -1,0 +1,15 @@
+{
+  "environment": "dev",
+  "database": {
+    "drivers": [
+      {
+        "mysql": {
+          "username": "mysuperawesomeusername",
+          "password": "mysupersecretpassword",
+          "host": "localhost",
+          "port": 3306
+        }
+      }
+    ]
+  }
+}
